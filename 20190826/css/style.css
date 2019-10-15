@@ -1,0 +1,171 @@
+
+
+*{ margin: 0; padding: 0;}
+ul{list-style-type: none;}
+a{text-decoration: none;}
+#wrapper{ width: 960px; margin: 0 auto;}
+/* ----------------------------------------------header */
+header{width: 960px; height: 100px; background-color: black;}
+header>img{width: 20%; height: 60%; float: left; margin: 20px 20px; }
+header>nav{width: 70%; height: 100%; float: left;}
+
+.MainMenu{
+    text-align: center;
+    width: 100%;
+    height: 60%;
+    background-color: orangered;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.MainMenu>li{
+    text-align: center;
+    display: inline-block;
+    margin-top: 15px;
+    width: 24%;
+}
+
+.MainMenu>li>a{font-size: 1.3em; color: white; font-weight: bold;}
+
+.gnb_sub{
+    width: 100%; 
+    height: 200px;
+    margin-left: 20px;
+    position: relative;
+    
+}
+.gnb_sub>.SubMenu{
+    display: none;
+    background-color: orange;
+    width: 100%;
+    height: 50%;
+}
+.gnb_sub>.SubMenu>li{
+    text-align: center;
+    width: 19.9%;
+    display: inline-block;
+    margin: 5px 15px;
+}
+.gnb_sub>.SubMenu>li>a{
+    color: white;
+    font-size: 0.9em;
+}
+
+
+/* -------------------------------------------section01 슬라이드 */
+#slideWrap{width: 3000px; height: 300px;}
+.slide{width: 960px; height: 300px; overflow: hidden;}
+#slideWrap>.slide>ul{width: 3000px; height: 300px;}
+#slideWrap>.slide>ul>li{width: 960px; height: 300px;float: left;}
+#slideWrap>.slide>ul>li>img{width: 100%; height: 100%;}
+
+
+.slidetext{
+    position: absolute; 
+    top: 230px; 
+    left: 700px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 200px; 
+    border-radius: 50px;
+}
+.slidetext p{font-size: 1.5em;}
+
+
+
+
+
+
+/* ------------------------------section2 공지사항 갤러리 배너 */
+#infoSection{widows: 960px;height: 300px;}
+.sec2{
+    width: 30%; 
+    height: 100%;
+    float: left;
+}
+.notice{
+    width:35%;
+    height: 100%;
+    background-color: skyblue;
+}
+.notice>h1{text-align: center; margin-top: 20px;}
+.notice table{ padding: 20px 30px; text-align: center;}
+.notice td{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.blue{color: blue;}
+
+
+
+/*  */
+.gallary{
+    width: 33%;
+    background-color: slateblue;
+}
+.gallaryImg>img{
+    width: 80px; 
+    height: 100px; 
+    margin-top: 75px;
+    margin-left: 16px;
+}
+.imgTag>li{
+    display: inline-block; 
+    background-color: slategrey; 
+    color:white;
+    padding: 10px 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: none;
+}
+.banner{
+    width: 32%;
+    background-color:tomato; 
+    text-align: center;
+}
+.banner>h1{margin-top:40px; margin-bottom: 10px;  }
+.banner>img{width: 100%; height: 100px;padding: 25px 0;}
+.banner>p{padding: 10px 0;}
+
+
+/* --------------------------------------------footer */
+footer{width: 960px; height: 100px;background-color: black; color: white;}
+.Left{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.Left li{
+    display: inline-block;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 35px;
+    
+   
+}
+.Left a{
+    color: white;
+    font-size: 0.9em;
+    
+}
+.middle{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.middle li{font-size: 0.5em;}
+.right{
+    width: 20%;
+    height: 100%;
+    float: right;
+}
+.right li{
+    display: inline-block;
+    text-align: center;
+    margin-top: 35px;
+}
+.right img{
+    width: 30px;
+    height: 30px;
+}

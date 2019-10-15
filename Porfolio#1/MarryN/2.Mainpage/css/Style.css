@@ -1,0 +1,249 @@
+@charset 'utf-8';
+
+body,html{  
+    margin: 0; 
+    padding: 0;
+    background-image: url('../images/VioletBlue.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{text-decoration: none;}
+ul{list-style-type: none;}
+
+.qrcode{
+    position: relative;
+    z-index: 999;
+    width: 100px;
+    height: 100px;
+    top: 250px;
+    left: 500px;
+   
+}
+.qrcode>img{width: 180px; height: 180px;}
+.mainbannertext{
+    display: block;
+    font-family: Tahoma;
+    color: #444;
+    letter-spacing: 1px;
+    margin-top: 100px;
+    margin-right: 500px;
+    float: right;
+}
+
+.mainbannertext>p{
+    font-size: 20px;
+}
+
+.iphone{
+    display: block;
+    position: relative;
+    top: 20px;
+    left: 150px;
+    width: 100vw;
+    height: 100vh;
+    /* margin: 0 auto; */
+    padding: 0;
+    clear: both;
+}
+.iphone>img{
+    width: 423px;
+    height: 858px;
+    position: absolute;
+    top: 0px;
+    left:0;
+    margin: 0; padding: 0;
+    
+}
+
+#wrapper{
+    float: left;
+    top: 110px;
+    left: 30px;
+    box-sizing: border-box; 
+    width: 360px; height: 690px;
+    overflow: hidden; 
+    position: relative; 
+
+}
+
+.pretty{
+    margin: 20px;
+    margin-left: 120px;
+}
+i{
+    z-index: 999;
+    background-image: url('../images/closewhite.png');
+    background-size: cover;
+    text-align: center center;
+    background-repeat: no-repeat;
+    background-color:cornflowerblue;
+    
+}
+
+.menupop{
+    z-index: 9999;
+    position: absolute;
+    top: 0;
+    transition: all 1s cubic-bezier(.83,-0.28,.26,1.11);
+    left:-200px;
+    width: 200px; height: 645px;
+    background-image:url('../images/GreenYellow.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+
+}
+.circle{
+    font-size: 11px;
+    text-align: center;
+    line-height: 160px;
+    position: relative;
+    left: 50px;
+    width: 100px; height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url('../images/MARRYN_logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.circle>p{
+    font-weight: bold;
+    color:#565656;
+}
+.menupop ul{
+    
+    padding: 30px 0; margin: 0; 
+}
+.menupop ul li{ line-height: 35px; margin-left: 50px;}
+.menupop ul li a{
+    color: slategrey;
+    font-weight: bold;
+    display: block;
+}
+.menupop>ul>li:hover a{
+    color: royalblue;
+    font-size: 1.1em;
+    
+    
+}
+
+
+header{width: 100%; height: 56px; background-color: #f3f1f4;}
+header>.header{width: 360px; height: 27px; position: relative;}
+.Left_hamburger{cursor:pointer; width: 8%; height: 80%; padding-top: 3px; padding-left: 10px;}
+.burger{width: 80%; height: 3px; background-color: #000; margin-bottom: 4px;}
+
+header>.header>h1{width: 40%; height: 26px; position: absolute; top: 0; left: 100px; margin: 0;}
+header>.header>h1>img{ width: 120px; height: 26px; padding-bottom: 10px; padding-left: 15px;}
+
+
+.Right_icon{width:15%; height: 100%; position: absolute; top: -2px; right: 0px; cursor: pointer;}
+.Right_icon>img{width: 42%; padding-top: 5px;}
+
+.menuwrap{width: 100%; background-color: white;}
+.Menulist{width: 80%; height: 29px; margin: 0 auto;}
+.Menulist>li{display: inline-block; margin: 0 5px;}
+.Menulist>li>a{display: block; font-size: 8px; color:#565656; border-left:1px solid #565656; padding-left: 10px;}
+.Menulist>li:first-child>a{border: none;}
+
+
+.sidemenu{ width: 37px; height: 107px; position: fixed; top: 300px; margin: 0 0; z-index: 999;}
+.sidemenu>ul{width: 100%; height: 100%; padding: 0;}
+.sidemenu>ul>li{padding: 10px 0; background-color: white; text-align: center; border: 1 solid #565656;}
+.sidemenu>ul>li>a{ font-weight:bold; font-size: 9px; color: black; display: block;} /*  display: block; 할때에줄어드는데 왜 ? */
+
+.sidemenu>ul>li:hover{background-color: #ec6e66;}
+.sidemenu>ul>li:hover a{color: white;}
+
+#Img-slide{width: 360px; height: 159px; overflow: hidden;}
+#Img-slide>article{width: 1080px; height: 100%;}
+#Img-slide>article>img{width: 360px; height: 100%; float: left;}
+
+
+#Product-page{width: 100%; height: 292px;}
+#Product-page>article>div{width: 33.33336%; height: 146px; float: left; overflow: hidden;}
+#Product-page>article>div:hover{cursor: pointer;}
+#Product-page>article>div>img{width: 100%; height: 100%;}
+.text-wrap{position: relative; width: 100%; height:  100%; top: -150px; display: none; z-index: 200;}
+#Product-page .text-wrap h2{
+    transition: all 1s cubic-bezier(.83,-0.28,.26,1.11);
+    display: block;
+    position:absolute;
+    top: 3;
+    color: aliceblue;
+    margin: 0;
+    width: 100%; height: 100%;
+    line-height: 125px;
+    text-align: center;
+}
+#Product-page article div p{
+    margin: 0;
+    color: white;
+    position: absolute;
+    line-height: 180px;
+    left: 38px;
+}
+#Product-page .text-wrap span img{
+    position: absolute;
+    top: 70%;
+    left: 43%;
+    width: 15px;
+    height: 15px;
+    display: block;
+}
+#pro1:hover .Hoverbg1{background-color:rgba(197, 116, 66, 0.8);}
+#pro2:hover .Hoverbg2{background-color:rgba(212, 122, 92, 0.5);}
+#pro3:hover .Hoverbg3{background-color:rgba(231, 109, 125, 0.8);}
+#pro4:hover .Hoverbg4{background-color:rgba(159, 117, 102, 0.9);}
+#pro5:hover .Hoverbg5{background-color:rgba(247, 218, 183, 0.8);}
+#pro6:hover .Hoverbg6{background-color:rgba(247, 218, 66, 0.8);}
+
+
+
+#Footer{width: 100%; height: 138px; background: red;}
+#Footer>img{height: 100%;}
+#Footer>img:nth-child(1){float: left; width: 66.7%; }
+#Footer>img:nth-child(2){float: right; width: 33.3%;}
+
+@media screen and (max-width:1275px)
+{
+    .mainbannertext{
+    display: none;
+    transition: 2s ease;
+    }
+    .qrcode{ display: none;}
+    .iphone{
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        /* margin: 0 auto; */
+                
+    }
+    .iphone>img{
+        display: none;
+        width: 423px;
+        height: 858px;
+        position: absolute;
+        top: 0px;
+        left:0;
+        margin: 0; padding: 0;
+        
+    }
+} 
+@media screen and (max-width:360px)
+{
+    body,html{background: none;}
+    #wrapper{
+        
+        width: 100%; height: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        
+    
+    }
+    header>.header{width: 100%; height: 27px; position: relative;}
+    #Img-slide{width: 100vw; height: 159px;}
+    #Img-slide>article{width: 100%; height: 100%;}
+    #Img-slide>article>img{width: 100%; height: 100%; float: left;}
+} 

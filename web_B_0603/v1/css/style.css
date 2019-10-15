@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+    #wrap{width: 100%; margin: 0 auto;}
+
+    #header{width: 100%; height: 200px; position: relative;}
+    #header img{width: 40px; height: 50px; margin-left: 40px; }
+    #header nav a{
+        text-decoration: none;
+        color:whitesmoke;
+        font-family: 'Source Code Variable';
+        /* 왜 글씨체안먹지 */
+    }
+    #header nav ul{
+        list-style-type: none;
+        text-align: center;
+    }
+    #header nav li{
+        transition: all 1s ease;
+        background-color: #e6aa85;
+        padding: 20px;
+        border: 1px solid  #ee823f;
+    }
+    #btn{
+        position: absolute;
+        right: 30px;
+        top: 50px;
+        width: 40px;
+        height: 30px;
+        border-radius: 20%;
+        border: none;
+        color: aliceblue;
+        display: none;
+    }
+    #mainimg{
+        width: 100%;
+    }
+    #mainimg img{
+        width: 100%;
+        height: 50vh;
+    }
+    #about{
+        text-align: center;
+        width: 100%;
+        margin: 50px auto;
+        height: 1000px;
+        padding-top: 100px;
+        transition: all 1s ease;
+    }
+    #about>div{
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+/*--------------------------------------*/
+    #work{
+        width: 70%;
+        height: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }   
+    #work>article>div>img{width: 100%; height: 100%;}
+    
+    
+    
+    #form{width: 100%; height: 500px; text-align: center; background-color:aqua; }
+    #footer{
+        width: 100%;
+        background-color:black; 
+        text-align: center;
+        color: aliceblue;
+    }
+    
+    
+    @media screen and (min-width:768px)
+    {
+        #mainimg img{
+        height: 50vh;
+        }
+        #header img{margin-top: 40px; margin-left: 40px; width: 80px; height: 100px;}
+    
+        #header nav li{
+        background-color: white;
+        padding: 20px;
+        border:none;
+        display: inline-block;
+        float: right;
+        padding-right: 10px;
+        }
+        #header nav li a{color: black;}
+        #btn{display: none;}
+        #about>div{width: 30%; display: inline-block;}
+        #about{width: 1000px;}
+        #btn{display: block;}
+        #about{height: 500px;}
+       
+    }
+
+    @media screen and (min-width:1024px)
+    {
+        #mainimg img{height: 70vh;}  
+    }

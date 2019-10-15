@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>porfolio_A_keeyeaji</title>
+</head>
+<!-- 60acf8 -->
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    #webpage{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #343458;
+    }
+    header{
+        width: 100%;
+        height: 300px;
+    }
+    header p{
+        color: aliceblue;
+        font-size: 2.5em;
+        font-family: 'HCR Dotum';
+        text-align: center;
+        padding-left: 1%;
+        line-height: 220px;
+        
+    }
+    header nav{
+        width: 100%;
+        height: 56px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    ul li{
+        display: inline-block;
+    }
+    ul li a{
+        text-decoration: none;
+        color: aliceblue;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    header>nav>ul{
+        text-align: center;
+        line-height: 60px;
+    }
+    header>nav>ul>li{
+        padding-right: 60px;
+    }
+    header>nav>ul>li:last-child{
+        padding-right:0px;
+    }
+    section{
+        width: 40%;
+        margin: 0 auto;
+        height: 700px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    section>nav{
+        width: 100%;
+    }
+    section>nav>ul>li{
+        padding-right: 30px;
+    }
+    /* bottom 공간을 줄이고 싶어요 
+    section>nav>ul>li>a{
+    }
+    */
+    section div{
+        width: 247PX;
+        height: 239px;
+        background-color: #fc5029;
+        border-radius: 4%;
+        position:relative;
+        transform: scale(0);/*호버에서 사진커지게*/
+        /*overflow: hidden;*/
+    }
+    section img{
+        width: 234px;
+        height: 173px;
+        position: absolute;
+        top: 6px;
+        left: 6px; 
+    }
+    section p{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.9);
+        border-radius: 4%;
+        color: aliceblue;
+        text-align: center;
+        line-height: 250px;
+        display: none;
+    }
+    section>div:hover p{
+        display: block;
+        font-size: 1.2em;
+    }
+    footer{
+        width: 100%;
+        height: 100px;
+    }
+    footer div{
+        width: 100%;
+        height: 2px;
+        background-color: aliceblue;
+        text-align: center;
+        padding-left: 50%;
+    }
+    footer p{
+        color: aliceblue;
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+        line-height: 60px;
+    }
+    #modal{
+        background-color: black, rgba(0,0,0,0.9);
+        width: 100%;
+        height: 100%;
+    }
+
+</style>
+<body>
+    <div id="webpage">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">CONTECT</a></li>
+                </ul>
+            </nav>
+            <p>PORTFOLIO</p>
+        </header>
+        <section>           
+            <nav>
+                <ul>
+                    <li><a href="#">WebDesign & Programming</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Editorial Design</a></li>
+                </ul>
+            </nav>
+            <div>
+                <a>
+                    <img src="images/이미지 1.jpg" alt="">
+                    <p>홈페이지 바로가기</p>
+                </a>
+            </div>
+            <div>
+                <a>
+                    <img src="images/이미지 2.jpg" alt="">
+                    <p>홈페이지 바로가기</p>
+                </a>
+            </div>
+            <div>
+                <a>
+                    <img src="images/이미지 3.jpg" alt="">
+                    <p>홈페이지 바로가기</p>
+                </a>
+            </div>
+            <div>
+                <a>
+                    <img src="images/이미지 4.jpg" alt="">
+                    <p>홈페이지 바로가기</p>
+                </a>
+            </div>
+            <div>
+                <a>
+                    <img src="images/이미지 5.jpg" alt="">
+                    <p>홈페이지 바로가기</p>
+                </a>
+            </div>
+            <div>
+                <a>
+                    <img src="images/이미지 6.jpg" alt="">
+                    <p>홈페이지 바로가기</p>
+                </a>
+            </div>
+        </section>
+        <footer>
+            <div></div>
+            <p>KEEYEAJI Copyright @2019</p>
+        </footer>
+    </div>
+    <!-- modal popup -->
+    <div id="modal">
+        <div id="popup">
+            <img src="images/모달팝업02.jpg" alt="" width="500px">
+        </div>
+    </div>
+</body>
+</html>
