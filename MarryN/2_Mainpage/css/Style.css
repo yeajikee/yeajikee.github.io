@@ -230,7 +230,7 @@ header>.header>h1>img{ width: 120px; height: 26px; padding-bottom: 10px; padding
         
     }
 } 
-@media screen and (max-width:360px)
+@media screen and (max-width:700px)
 {
     body,html{background: none;}
     #wrapper{
