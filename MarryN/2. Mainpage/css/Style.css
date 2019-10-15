@@ -47,7 +47,7 @@ ul{list-style-type: none;}
 }
 .iphone>img{
     width: 423px;
-    height: 858px;
+    height: 910px;
     position: absolute;
     top: 0px;
     left:0;
@@ -61,8 +61,8 @@ ul{list-style-type: none;}
     left: 30px;
     box-sizing: border-box; 
     width: 360px; height: 690px;
-    overflow: hidden; 
     position: relative; 
+    overflow: hidden; 
 
 }
 
@@ -159,8 +159,8 @@ header>.header>h1>img{ width: 120px; height: 26px; padding-bottom: 10px; padding
 #Img-slide>article>img{width: 360px; height: 100%; float: left;}
 
 
-#Product-page{width: 100%; height: 292px;}
-#Product-page>article>div{width: 33.33336%; height: 146px; float: left; overflow: hidden;}
+#Product-page{width: 100%; height: 235px;}
+#Product-page>article>div{width: 33.33336%; height: 153px; float: left; overflow: hidden;}
 #Product-page>article>div:hover{cursor: pointer;}
 #Product-page>article>div>img{width: 100%; height: 100%;}
 .text-wrap{position: relative; width: 100%; height:  100%; top: -150px; display: none; z-index: 200;}
@@ -199,7 +199,7 @@ header>.header>h1>img{ width: 120px; height: 26px; padding-bottom: 10px; padding
 
 
 
-#Footer{width: 100%; height: 138px; background: red;}
+#Footer{width: 100%; height: 170px; background: red;}
 #Footer>img{height: 100%;}
 #Footer>img:nth-child(1){float: left; width: 66.7%; }
 #Footer>img:nth-child(2){float: right; width: 33.3%;}
