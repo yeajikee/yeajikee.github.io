@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+    
+    <title>marry&login_page</title>
+    <style>
+        body{
+            /* font-family: 'roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva',' Verdana', 'sans-serif'; */
+            box-sizing: border-box;
+            background-image: url('VioletBlue.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .qrcode{
+            position: relative;
+            z-index: 999;
+            width: 100px;
+            height: 100px;
+            top: 242px;
+            left: 492px;
+        }
+        .qrcode>img{width: 180px; height: 180px;}
+        .iphone{
+
+            display: block;
+            position: relative;
+            top: -108px;
+            left: 142px;
+            width: 100vw;
+            height: 100vh;
+            /* margin: 0 auto; */
+            padding: 0;
+            clear: both;
+            
+        }
+        .iphone>img{
+            width: 423px;
+            height: 910px;
+            position: absolute;
+            top: 0px;
+            left:0;
+            margin: 0; padding: 0;
+            
+        }
+
+        #wrapper{
+            box-sizing: border-box; 
+            width: 360px; height: 690px;
+            background-image: url('images/loginbg01.jpg'); 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            position: absolute;
+            top: 110px;
+            left: 181px;
+        }
+        #wrapper span img{width: 100%; height: 100%; opacity: 0.4;}
+        .logo{
+            
+            position: absolute; 
+            top: 28%;
+            left: 50%;
+            transform: translateX(-50%); 
+        }
+        .logo>img{
+            
+            width: 100px;
+            height: 30px;
+        }
+        .form{
+            height: 250px;
+            width: 250px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 10%;
+            text-align: center;
+            
+        
+        }
+        form{
+            
+            position: absolute;
+            bottom: 40%;
+        }
+        form input{
+            
+            color: white;
+            padding: 15px 20px;
+            margin-bottom: 15px; 
+            background-color: rgba(0, 0, 0, 0.55);
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            border-radius: 30px;
+        }
+        
+        .option{
+            color:white;
+            position: absolute;
+            left: 10%;
+            bottom: 30%; 
+            width: 196px; 
+            height: 40px; 
+            font-size: 10px; 
+            
+        }
+       
+        .left{float: left; width: 40%; height: 20px;  line-height: 20px; cursor: pointer; } 
+        
+        .pretty{ float: left; padding-left: 31px; padding-top: 15px; cursor: pointer;}
+       
+
+         
+        .btn{ 
+            width: 245px; 
+            height: 25px; 
+            position: absolute; 
+            bottom: 0px; 
+        }
+        .btn ul{list-style-type: none; padding: 0; margin: 0;}
+        .btn ul li{
+            float: left;  
+            width: 50%; 
+            cursor: pointer; 
+            color: white;
+            font-weight: bold;
+        }
+        @media screen and (max-width:700px)
+        {
+            body,html{background: none;}
+            .iphone{
+                display: none;
+
+
+            }
+            .qrcode{
+                display: none;
+            }
+            .logo{
+            
+                width: 100px;
+                height: 50px;
+                margin: 0 auto;
+                 
+            }
+            #wrapper{
+                
+                width: 100%; height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            .form{
+                height: 250px;
+                width: 250px;
+                margin: 0 auto;
+            } 
+        }
+    </style>
+</head>
+<body>
+    <div class="qrcode">
+        <img src="images/finalqr.png" alt="">
+    </div>
+    <div class="iphone">
+        <img src="images/iphone.png" alt="">
+    </div>
+<!------------------------------------------------------------------------------------------------>
+    <div id="wrapper">
+        <span><img src="images/loginbg02.jpg" alt=""></span>
+        <h1 class="logo">
+            <img src="images/MARRYN_logo.png" alt="this is logo called marryann">
+        </h1>
+        <div class="form">
+            <form action="">
+                <input type="text" placeholder="ID">
+                <input type="text" placeholder="Passward">
+            </form>
+            <div class="option">
+                <p class="left">ID/PASS 찾기</p>
+                
+                <div class="pretty p-switch p-fill">
+                    <input type="checkbox"></input>
+                    <div class="state">
+                        <label>로그인유지</label>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="btn">
+                <ul>
+                    <li><a href="../2_Mainpage/v2/index.html">LOGIN</a></li>
+                    <li>JOINUS</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
