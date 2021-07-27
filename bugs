@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+    <link rel="stylesheet" href="css/LV_renew.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>LV-룩스비바</title>
+    <script type='text/javascript'>
+        
+        window.onload = function(){ 
+         if((parseInt(document.getElementById('pop').offsetHeight)
+          - parseInt(window.document.body.clientHeight)) > 20) {
+               window.document.body.scroll = "auto"; 
+               window.resizeBy(18,0);
+            } 
+        } 
+    </script>
+
+</head>
+
+<body>
+    
+
+    
+    <div class="popup"> 
+        <div class="contentBox" id="pop">
+            <h1>룩스비바 납품이력</h1>
+            <p>
+            부산 포도원교회, 사랑제일교회, 아산 온양교회 ,
+            한국 웩국제 선교회,  에스더기도운동본부,<br>
+            용인 주님의 교회, 용인 열방교회,  시온성교회,
+            블레싱샘터교회,  새소망교회,  겨자씨교회,  <br>
+            하늘시민교회,  산성교회, 관악교회, 행복샘교회,<br>
+            반포제일교회,  동산제일교회,  선교중앙교회, <br> 
+            충남 고려신학대학원,  IM 국제학교, 110여단군인교회, 샬롬교회, 큰사랑교회, 위드선교회,<br>
+            사석교회, 대강교회, 장현교회, 분당주영광교회, 경희대학교,  벨도담국제학교,  21세기치과의원 ,  사랑의 병원,  
+            한호수병원,<br>   
+            <span> 외 121 교회 및 기관 / 학교 / 병원 / 대학 등.</span>
+            부산 포도원교회, 사랑제일교회, 아산 온양교회 , 한국 웩국제 선교회,  에스더기도운동본부, 용인 주님의 교회, 용인 열방교회,  시온성교회, 블레싱샘터교회,  새소망교회,  겨자씨교회,  하늘시민교회,  산성교회, 관악교회, 행복샘교회,  반포제일교회,  동산제일교회,  선교중앙교회, 충남 고려신학대학원,  IM 국제학교, 110여단군인교회, 샬롬교회, 큰사랑교회, 위드선교회, 사석교회, 대강교회, 장현교회, 분당주영광교회, 경희대학교,  벨도담국제학교,  21세기치과의원 ,  사랑의 병원,  한호수병원,   외 121 교회 및 기관 / 학교 / 병원 / 대학 등.
+            </p>
+        </div>
+        
+    </div>
+    
+    <div id="wrapper">
+    <!-- 전체메뉴 가운데정렬 contents -->
+        
+       
+    <div class="Total-menu">
+            <div class="nav">
+                
+                <img class="totalclose" src="images/close.png" alt="close icon">
+            </div>
+            <div class="menuwrap">
+                <ul>
+                    <li><a href="LV_introduce.html">기업정보
+                        <ul class="sub sub1">
+                            
+                            <li><a href="LV_introduce.html" >연혁</a></li>
+                            <li><a href="LV_introduce.html" >조직도</a></li>
+                            <li><a href="LV_introduce.html" >오시는길</a></li>
+                            
+                        </ul>
+                        </a>
+                    </li>
+                    <li><a href="https://smartstore.naver.com/luxviva">제품소개
+                        <ul class="sub sub2">
+                            <li><a href="https://smartstore.naver.com/luxviva">UV 공기살균기</a>
+                                <!-- <ul class="sub-sub">
+                                    <li><a href="https://smartstore.naver.com/luxviva/products/5123281163">room</a></li>
+                                    <li><a href="https://smartstore.naver.com/luxviva/products/5123277704">home</a></li>
+                                    <li><a href="#">차량용</a></li>
+                                    <li><a href="https://smartstore.naver.com/luxviva/products/5119381184">158P</a></li>
+                                    <li><a href="#">상품준비중</a></li>
+                                    <li><a href="#">상품준비중</a></li>
+                                </ul> -->
+                            </li>
+                            <li><a href="irradiator.html">광양자 치료기</a>
+                                <!-- <ul class="sub-sub">
+                                    <li><a href="#">UH-100</a></li>
+                                    <li><a href="#">UVH-200</a></li>
+                                    <li><a href="#">UVH-200+</a></li>
+                                    <li><a href="#">UVH-800</a></li>
+                                </ul> -->
+                            </li>
+                            <li><a href="irradiator.html">자외선 조사기</a></li>
+                            <li><a href="ampPage.html">엠프주문제작</a></li>
+                        </ul>
+                        </a>
+                    </li>
+                    <li>고객지원
+                        <ul class="sub sub3">
+                            <li><a href="#" style="opacity: 0.2;">FAQ</a></li>
+                            <li><a href="LV_download.html">다운로드</a></li>
+                            <!-- <li><a href="#">온라인문의</a></li> -->
+                        </ul>
+                    </li>
+                    <li>소식&공지
+                        <ul class="sub sub4">
+                            <li><a href="#" style="opacity: 0.2;">공지사항</a></li>
+                            <li><a href="newsindex.html">뉴스</a></li>
+                            <li><a href="#" style="opacity: 0.2;">이벤트</a></li>
+                            <li><a href="Video.html">동영상</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="customer">
+                    <img src="images/tell.png" alt="tellephone icon">
+                    <div>
+                        <p>제품문의</p>
+                    </div>
+                    <span>031-821-5020</span>
+                </div>
+            </div>  
+        </div>
+
+
+        <header>
+            <div id="header">
+                <h1 class="logo">
+                    <a href="index.html">LUXVIVA</a>
+                    <!-- <img class="light" src="images/logo.png" alt="logo"> -->
+                </h1>
+                <!-- 메뉴활성화/비활성화 기능 추가 -->
+                <nav>1024
+                    <ul class="mainmenu">
+                        <li><a href="#" style="cursor: text;">기업정보</a></li>
+                        <li class="secondList-animate"><a href="#" style="cursor: text;">제품소개</a></li>
+                        <li><a href="#" style="cursor: text;">고객지원</a></li>
+                        <li><a href="#" style="cursor: text;">소식&공지</a></li>
+                    </ul>
+                    <div id="submenu">
+                       <ul class="subul subul1">
+                            
+                            <!-- <li><a href="#">회사소개</a></li>  -->
+                            <li><a href="LV_introduce.html">연혁</a></li>
+                            <li><a href="LV_introduce.html">조직도</a></li>
+                            <li><a href="LV_introduce.html">오시는길</a></li> 
+                           
+                        </ul>
+                        <ul class="subul subul2">
+                            <!--nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn 2021-05-12 메뉴카테고리변경 -->
+                            <li class="colorgray cliskparant"><a href="#" style="cursor: text;">UV 공기살균기</a>
+                                <ul id="Clicksharelist">
+                                    <li><a class="uvList1" href="https://smartstore.naver.com/luxviva/products/5123281163" target="_blank">UV-room</a></li>
+                                    <li><a class="uvList2" href="https://smartstore.naver.com/luxviva/products/5123277704" target="_blank">UV-hoom</a></li>
+                                    <li><a class="uvList3" href="https://smartstore.naver.com/luxviva/products/5119381184" target="_blank">UV-158P</a></li>
+                                    <li><a class="uvList4" href="https://smartstore.naver.com/luxviva/products/5528821592" target="_blank">UV-158PL</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="irradiator.html">광양자 치료기<img class="move" src="images/diagonal-arrow.png" alt="" width="10px" height="10p"></a></li>
+                            <li><a href="UVB-44.html">자외선 조사기<img class="move" src="images/diagonal-arrow.png" alt="" width="10px" height="10p"></a></li>
+                            <li><a href="ampPage.html">엠프주문제작<img class="move" src="images/diagonal-arrow.png" alt="" width="10px" height="10p"></a></li>
+                            
+                        </ul>
+                          <!--nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn 2021-05-12 메뉴카테고리변경 -->
+
+
+
+
+                        <ul class="subul subul3">
+                            <li><a href="#" style="opacity: 0.2; cursor: text;">FAQ</a></li>
+                            <li><a href="LV_download.html">다운로드</a></li>
+                        </ul>
+                        <ul class="subul subul4">
+                            <li><a href="#" style="opacity: 0.2; cursor: text;">공지사항</a></li>
+                            <li><a href="newsindex.html" target="_blank">뉴스</a></li>
+                           
+                            <li id="popup_open_btn"><a href="#" style="opacity: 0.2; cursor: text;">이벤트</a></li>
+                            <li><a href="Video.html" target="_blank">동영상</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="icon">
+                    <!-- <form action="">
+                        <input type="search" placeholder="Search">
+                        
+                    </form>
+                    <div><img src="images/join.png" alt="This is icon for join us"></div>
+                    <div><img src=" images/language.png" alt="changing the language"></div> -->
+                    <div class="burger" id="burger"><img src="images/hamburger.svg" alt="menu icon"></div>
+                </div>
+            </div>
+        </header>
+
+
+        <section id="firstp">
+            <div class="slideblock"></div>
+            <div class="Slidewrap">
+                <div class="slide">
+                    <img src="images/Mainbanner1.png" alt="The picture of large bridge" width="100%" height="100%">
+                    <div class="bntext Global">
+                        <h2>Global Network</h2>
+                        <h3>국내외 UV 살균기 전문 업체 및 제조,<br>
+                            거점별 전문영업 가능점 및 대리점<br>
+                            /온라인 다양한 유통망을 갖추고 있습니다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/Mainbanner2.png" alt="The picture of company" width="100%" height="100%">
+                    <div class="bntext Logitech">
+                        <h2>Self-Producing</h2>
+                        <h3>개발력 및 생산 유통,<br>
+                            자체 생산으로 고품질을 자랑합니다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/Mainbanner3.png" alt="The picture of the city" width="100%" height="100%">
+                    <div class="bntext sustainability">
+                        <h2>Sustainability</h2>
+                        <h3>세계시민으로서<br>
+                            친환경제품으로 지속가능한 발전을<br>
+                            위해 노력하고 있습니다.
+                        </h3>
+                    </div>
+                </div> 
+            </div>
+            <div class="slidebtn">
+                <ul>
+                    <li>1</li><li>2</li><li>3</li><li><img src="images/stop-icon.png" alt="stop icon"></li>
+                </ul>
+            </div>
+            <div class="scrollbtn">
+                <a href="#"><div class="scrollbtn1"></div></a>
+                <a href="#product"><div class="scrollbtn2"></div></a>
+                <a href="#news"><div class="scrollbtn3"></div></a>
+                <a href="#partner"><div class="scrollbtn4"></div></a>
+            </div>
+        </section>
+
+        <section>
+            <div id="product">
+                <div class="text">
+                    <h2>룩스제품</h2>
+                    <h3>오직 살균력과 효율, 성능에만 신경썼습니다.<br>
+                        고품격 고성능의 기술을 담은 제품을 만나보세요.
+                    </h3>
+                </div>
+                <div class="productbtn arrow">
+                    <h4><a href="https://smartstore.naver.com/luxviva">제품바로 보기</a></h4>
+                    <!-- <h4><a href="https://smartstore.naver.com/luxviva">제품바로 보기</a></h4> -->
+                    <span class="arrowmove"><img src="images/arrow.png" alt="" ></span>
+                </div>
+                
+                <div class="itemswrap">
+                    <div id="item1-Wrap" class="wrap">
+                        <div class="item1 itembg"></div>
+                        <div class="itemtext1 itemtextall">
+                            <h4>UV공기살균기</h4>
+                            <p>소형,중형,대형 솔루션.<br>
+                                작은공간 나만의 공간에도<br>
+                                가장 안전한 home을 위한 제품<br>
+                                최초 고성능 개발제품
+                            </p>
+                            <!-- <span><a href="https://smartstore.naver.com/luxviva/products/5123281163">제품보기</a></span> -->
+                            <span><a href="https://smartstore.naver.com/luxviva">제품보기</a></span>
+                        </div>
+                    </div>
+                    <div id="item2-Wrap" class="wrap" >
+                        <div class="item2 itembg"></div>
+                        <div class="itemtext2 itemtextall">
+                            <h4>AMP</h4>
+                            <p>앰프 주문맞춤제작<br>
+                                <br>합리적인 가격과 전문성 보장<br>
+                                VOICE COIL 및 전자석 가진기<br>
+                                구동용 파워 앰프 취급<br>
+                            </p>
+                            <!-- <span><a href="https://smartstore.naver.com/luxviva/products/5123277704">제품보기</a></span> -->
+                            <span><a href="ampPage.html">제품보기</a></span>
+                        </div>
+                    </div>
+                    <div id="item3-Wrap" class="wrap">
+                        <div class="item3 itembg"></div>
+                        <div class="itemtext3 itemtextall">
+                            <h4>자외선<br>
+                                조사기</h4>
+                            <p>건강 솔루션.<br>
+                                비타민d결핍으로 발생하는<br>
+                                모든 질병 개선 기능 <br>
+                                비염,골다공증,피로회복 등 
+                            </p>
+                            <!-- <span><a href="https://smartstore.naver.com/luxviva/products/5119381184">제품보기</a></span> -->
+                            <span><a href="UVB-44.html">제품보기</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="news">
+                <div class="text">
+                    <h2>더블뉴스</h2>
+                    <h3>더블을 알리고 더블을 전합니다.<br>
+                        뉴스를 확인하세요.
+                    </h3>
+                </div>
+                <div class="newsbtn arrow">
+                    <h4><a href="newsindex.html">뉴스 보기</a></h4>
+                    <a href="newsindex.html"><span class="arrowmove"><img src="images/arrow.png" alt="" ></span></a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="partner">
+                <div class="text">
+                    <h2>PARTNERSHIP</h2>
+                    <h3>엘리에젤 뉴로웨이브의 사업 파트너가 되는 순간 귀사의 비즈니스 경쟁력이 올라갑니다.
+                        <br>
+                        <br>
+                        사람에게 가장 필요한 깨끗한 공기를 널리 알리실<br>
+                        대리점 모집합니다.
+                        02-943-5020
+                    </h3>
+                    <!-- <div class="partnerbnt arrow">
+                        <h4>Go</h4>
+                        <span class="arrowmove"><img src="images/arrow.png" alt=""></span>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <ul>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">이메일무단수집거부</a></li>
+                <li><a href="#">오시는길</a></li>
+                
+            </ul>
+            <div class="companyinfo">
+                <img src="images/eliezerLogo.png" alt="" style="width: 15%;">
+                <ul>
+                    <li>상호 : (주)엘리에젤 뉴로웨이브</li>
+                    <li>대표자 : 김준성</li>
+                    <li>사업자등록번호 : 772-86-01544</li>
+                    <li>경기도 양주시 고덕로 329번길 76(고읍동)</li>
+                    <li>031-821-5020</li>
+                    <li>COPYRIGHT(C) 2020. (주)엘리에젤 뉴로웨이브. CO.LTD ALL RIGHT RESERVED</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    
+    
+    <script src="js/LV_renew.js"></script>
+</body>
+
+</html>
